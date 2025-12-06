@@ -394,7 +394,7 @@ num_users_val = 9
 MAX_USER = 20
 virtual_edge_attr = 10
 
-save_root = '/home/GPN_rout//model/gpn_mst_gat2_noshort.pt'
+save_root = '/home/GPN_rout/model/gpn_mst_gat2_noshort.pt'
 
 print('=========================')
 print('prepare to train')
@@ -768,3 +768,4 @@ for epoch in range(n_epoch):
             torch.save(model, save_root)
     print('save model to: ', save_root)
     torch.save(model, save_root)
+
